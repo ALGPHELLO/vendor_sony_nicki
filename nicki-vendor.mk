@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The Lineage OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -88,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/nicki/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/nicki/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/nicki/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/nicki/proprietary/bin/rild:system/bin/rild \
     vendor/sony/nicki/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/nicki/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -105,9 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/nicki/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/nicki/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/sony/nicki/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-    vendor/sony/nicki/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/sony/nicki/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/sony/nicki/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/nicki/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/nicki/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
@@ -144,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/sony/nicki/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/nicki/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/sony/nicki/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/nicki/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/nicki/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/nicki/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -157,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/nicki/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/nicki/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/sony/nicki/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/sony/nicki/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/nicki/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/nicki/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -179,12 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/sony/nicki/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/sony/nicki/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/sony/nicki/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/sony/nicki/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/sony/nicki/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/sony/nicki/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
-    TimeService \
-    com.google.widevine.software.drm
+    TimeService 
 endif

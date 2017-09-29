@@ -40,14 +40,5 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.google.widevine.software.drm
-LOCAL_MODULE_OWNER := sony
-LOCAL_SRC_FILES := proprietary/framework/com.google.widevine.software.drm.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
 endif
 endif
