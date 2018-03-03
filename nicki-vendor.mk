@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/vendor/lib/hw/lights.vendor.msm8960.so:system/vendor/lib/hw/lights.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/nicki/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/sony/nicki/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.vendor.default.so \
     vendor/sony/nicki/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_2nd_default_video_1.so:system/lib/libchromatix_s5k4e1_2nd_default_video_1.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_2nd_default_video.so:system/lib/libchromatix_s5k4e1_2nd_default_video.so \
