@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/nicki/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/nicki/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/sony/nicki/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/nicki/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/nicki/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/nicki/proprietary/bin/qseecomd:system/bin/qseecomd \
