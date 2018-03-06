@@ -40,10 +40,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/nicki/proprietary/etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
     vendor/sony/nicki/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/nicki/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
+    vendor/sony/nicki/proprietary/lib/hw/camera.vendor.msm8960.so:system/vendor/lib/hw/camera.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/vendor/lib/hw/lights.vendor.msm8960.so:system/vendor/lib/hw/lights.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/nicki/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.vendor.default.so \
+    vendor/sony/nicki/proprietary/lib/hw/sensors.default.so:system/vendor/lib/hw/sensors.vendor.default.so \
     vendor/sony/nicki/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_2nd_default_video_1.so:system/lib/libchromatix_s5k4e1_2nd_default_video_1.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_2nd_default_video.so:system/lib/libchromatix_s5k4e1_2nd_default_video.so \
@@ -88,7 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/nicki/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/nicki/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/nicki/proprietary/bin/rild:system/bin/rild \
+    vendor/sony/nicki/proprietary/bin/rild:system/vendor/bin/hw/rild \
     vendor/sony/nicki/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/nicki/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/nicki/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
